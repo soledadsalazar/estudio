@@ -12,4 +12,4 @@ function prueba(original){
   funcionCambiante(original);
 };
 //llamado a funciones
-prueba(false);
+prueba(true);
