@@ -28,7 +28,7 @@ function prueba(original){
 
 	if (original== true){
 	var funcionCambiante = function(value) {
-	  console.log("original");
+	  console.log("bebe");
 	};
 	}else{
 	  funcionCambiante = function(value) {
@@ -42,8 +42,10 @@ prueba(false);
 
 var min = function(a, b) {
 	if(a<b)
+	{
 		return a;
-	return b;
+	}
+		return b;
 };
 //llamado a funciones
 console.log(min(0, 10));
